@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_21_PurchaseReptiles,Edge Chromium 122,,,03-03-2024 15:52:52,03-03-2024 15:53:28,35.965s,PASSED
+,,,,,,,
+Test Cases/TC_21_PurchaseReptiles,Edge Chromium 122,,,03-03-2024 15:52:52,03-03-2024 15:53:28,35.651s,PASSED
+"callTestCase(findTestCase(""TC_19_UserSignIn""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,03-03-2024 15:52:53,03-03-2024 15:53:11,18.200s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/img""))",Edge Chromium 122,,,03-03-2024 15:53:11,03-03-2024 15:53:13,1.992s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES"")",Edge Chromium 122,,,03-03-2024 15:53:13,03-03-2024 15:53:14,0.550s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/a_RP-LI-02""))",Edge Chromium 122,,,03-03-2024 15:53:14,03-03-2024 15:53:15,1.673s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/a_Add to Cart""))",Edge Chromium 122,,,03-03-2024 15:53:15,03-03-2024 15:53:17,1.584s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/a_Proceed to Checkout""))",Edge Chromium 122,,,03-03-2024 15:53:17,03-03-2024 15:53:18,1.241s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/input_Ship to different address_shippingAdd_0f9b79""))",Edge Chromium 122,,,03-03-2024 15:53:18,03-03-2024 15:53:19,0.718s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/input_Ship to different address_newOrder""))",Edge Chromium 122,,,03-03-2024 15:53:19,03-03-2024 15:53:20,1.202s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/input_Ship to different address_newOrder""))",Edge Chromium 122,,,03-03-2024 15:53:20,03-03-2024 15:53:21,1.090s,PASSED
+"click(findTestObject(""Object Repository/PurchaseReptilesObjRep/a_Confirm""))",Edge Chromium 122,,,03-03-2024 15:53:21,03-03-2024 15:53:22,1.311s,PASSED
+"verifyElementText(findTestObject(""Object Repository/PurchaseReptilesObjRep/li_Thank you, your order has been submitted""), ""Thank you, your order has been submitted."")",Edge Chromium 122,,,03-03-2024 15:53:22,03-03-2024 15:53:23,1.071s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 15:53:23,03-03-2024 15:53:28,4.436s,PASSED

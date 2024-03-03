@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_21_PurchaseReptiles,Chrome 122.0.0.0,,,03-03-2024 15:51:16,03-03-2024 15:52:35,1m - 19.416s,FAILED
+,,,,,,,
+Test Cases/TC_21_PurchaseReptiles,Chrome 122.0.0.0,,,03-03-2024 15:52:23,03-03-2024 15:52:35,11.969s,FAILED
+"callTestCase(findTestCase(""TC_19_UserSignIn""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,03-03-2024 15:52:23,03-03-2024 15:52:35,11.934s,FAILED
