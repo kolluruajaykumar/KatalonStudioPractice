@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_19_UserSignIn,Edge Chromium 122,,,03-03-2024 16:14:48,03-03-2024 16:15:08,20.365s,PASSED
+,,,,,,,
+Test Cases/TC_19_UserSignIn,Edge Chromium 122,,,03-03-2024 16:14:48,03-03-2024 16:15:08,20.076s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,03-03-2024 16:14:49,03-03-2024 16:14:56,7.459s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,03-03-2024 16:14:56,03-03-2024 16:14:59,2.503s,PASSED
+"click(findTestObject(""Object Repository/UserSignInObjRep/a_Enter the Store""))",Edge Chromium 122,,,03-03-2024 16:14:59,03-03-2024 16:15:01,2.191s,PASSED
+"click(findTestObject(""Object Repository/UserSignInObjRep/a_Sign In""))",Edge Chromium 122,,,03-03-2024 16:15:01,03-03-2024 16:15:05,3.987s,PASSED
+"setText(findTestObject(""Object Repository/UserSignInObjRep/input_Need a user name and password_username""), ""ajay123"")",Edge Chromium 122,,,03-03-2024 16:15:05,03-03-2024 16:15:06,1.096s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/UserSignInObjRep/input_Need a user name and password_password""), ""vzl2cAHk97k="")",Edge Chromium 122,,,03-03-2024 16:15:06,03-03-2024 16:15:07,0.836s,PASSED
+"click(findTestObject(""Object Repository/UserSignInObjRep/input_Need a user name and password_signon""))",Edge Chromium 122,,,03-03-2024 16:15:07,03-03-2024 16:15:08,1.030s,PASSED
+"verifyElementText(findTestObject(""Object Repository/UserSignInObjRep/a_Sign Out""), ""Sign Out"")",Edge Chromium 122,,,03-03-2024 16:15:08,03-03-2024 16:15:08,0.492s,PASSED
