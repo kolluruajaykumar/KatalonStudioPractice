@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_23_InvalidPwd,Edge Chromium 122,,,03-03-2024 16:34:28,03-03-2024 16:34:45,17.390s,PASSED
+,,,,,,,
+Test Cases/TC_23_InvalidPassword,Edge Chromium 122,,,03-03-2024 16:34:28,03-03-2024 16:34:45,17.131s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,03-03-2024 16:34:29,03-03-2024 16:34:36,7.243s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,03-03-2024 16:34:36,03-03-2024 16:34:38,2.160s,PASSED
+"click(findTestObject(""Object Repository/InvalidPwdObjRep/a_Enter the Store""))",Edge Chromium 122,,,03-03-2024 16:34:38,03-03-2024 16:34:40,2.105s,PASSED
+"click(findTestObject(""Object Repository/InvalidPwdObjRep/a_Sign In""))",Edge Chromium 122,,,03-03-2024 16:34:40,03-03-2024 16:34:41,0.966s,PASSED
+"setText(findTestObject(""Object Repository/InvalidPwdObjRep/input_Need a user name and password_username""), ""ajay123"")",Edge Chromium 122,,,03-03-2024 16:34:41,03-03-2024 16:34:42,1.152s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/InvalidPwdObjRep/input_Need a user name and password_password""), ""9ZxkeRH7STQ="")",Edge Chromium 122,,,03-03-2024 16:34:42,03-03-2024 16:34:43,0.760s,PASSED
+"click(findTestObject(""Object Repository/InvalidPwdObjRep/input_Need a user name and password_signon""))",Edge Chromium 122,,,03-03-2024 16:34:43,03-03-2024 16:34:44,0.844s,PASSED
+"verifyElementText(findTestObject(""Object Repository/InvalidPwdObjRep/li_Invalid username or password.  Signon failed""), ""Invalid username or password. Signon failed."")",Edge Chromium 122,,,03-03-2024 16:34:44,03-03-2024 16:34:44,0.553s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 16:34:44,03-03-2024 16:34:45,0.899s,PASSED
