@@ -17,21 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC_19_UserSignIn'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/')
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/img'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Enter the Store'))
+WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=REPTILES')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/img'))
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/a_RP-LI-02'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_K9-BD-01'))
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/a_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Add to Cart'))
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/a_Proceed to Checkout'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Remove'))
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/input_Ship to different address_shippingAdd_0f9b79'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/DeleteCartObjRep/b_Your cart is empty'), 'Your cart is empty.')
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/input_Ship to different address_newOrder'))
+
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/input_Ship to different address_newOrder'))
+
+WebUI.click(findTestObject('Object Repository/PurchaseReptilesObjRep/a_Confirm'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/PurchaseReptilesObjRep/li_Thank you, your order has been submitted'), 
+    'Thank you, your order has been submitted.')
 
 WebUI.closeBrowser()
 

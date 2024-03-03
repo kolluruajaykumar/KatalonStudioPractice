@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_DeleteCart</name>
+   <name>TS_17_SearchDog</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>444a2341-82b4-45db-89e0-538673af2d23</testSuiteGuid>
+   <testSuiteGuid>b4c3ee98-5acc-405e-825f-06c6919b783c</testSuiteGuid>
    <testCaseLink>
-      <guid>6f8e8890-ee3e-4e91-b614-932db5ac618c</guid>
+      <guid>93052766-8f7a-4de6-8e2f-97fcf89fa8da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_16_DeleteCart</testCaseId>
+      <testCaseId>Test Cases/TC_17_SearchDog</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

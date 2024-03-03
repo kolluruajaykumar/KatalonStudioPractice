@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_16_DeleteCart,Edge Chromium 122,,,03-03-2024 15:18:33,03-03-2024 15:18:48,14.765s,PASSED
+,,,,,,,
+Test Cases/TC_16_DeleteCart,Edge Chromium 122,,,03-03-2024 15:18:34,03-03-2024 15:18:48,14.512s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,03-03-2024 15:18:34,03-03-2024 15:18:40,6.187s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,03-03-2024 15:18:40,03-03-2024 15:18:42,2.234s,PASSED
+"click(findTestObject(""Object Repository/DeleteCartObjRep/a_Enter the Store""))",Edge Chromium 122,,,03-03-2024 15:18:42,03-03-2024 15:18:44,1.920s,PASSED
+"click(findTestObject(""Object Repository/DeleteCartObjRep/img""))",Edge Chromium 122,,,03-03-2024 15:18:44,03-03-2024 15:18:45,0.720s,PASSED
+"click(findTestObject(""Object Repository/DeleteCartObjRep/a_K9-BD-01""))",Edge Chromium 122,,,03-03-2024 15:18:45,03-03-2024 15:18:46,0.652s,PASSED
+"click(findTestObject(""Object Repository/DeleteCartObjRep/a_Add to Cart""))",Edge Chromium 122,,,03-03-2024 15:18:46,03-03-2024 15:18:46,0.682s,PASSED
+"click(findTestObject(""Object Repository/DeleteCartObjRep/a_Remove""))",Edge Chromium 122,,,03-03-2024 15:18:46,03-03-2024 15:18:47,0.678s,PASSED
+"verifyElementText(findTestObject(""Object Repository/DeleteCartObjRep/b_Your cart is empty""), ""Your cart is empty."")",Edge Chromium 122,,,03-03-2024 15:18:47,03-03-2024 15:18:48,0.395s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 15:18:48,03-03-2024 15:18:48,0.639s,PASSED

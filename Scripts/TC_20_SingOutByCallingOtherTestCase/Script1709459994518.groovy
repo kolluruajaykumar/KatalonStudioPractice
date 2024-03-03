@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('TC_19_UserSignIn'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/')
+WebUI.click(findTestObject('Object Repository/SignOutObjRep/a_Sign Out'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Enter the Store'))
+WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/img'))
-
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_K9-BD-01'))
-
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Add to Cart'))
-
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Remove'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/DeleteCartObjRep/b_Your cart is empty'), 'Your cart is empty.')
+WebUI.verifyElementText(findTestObject('Object Repository/SignOutObjRep/a_Sign In'), 'Sign In')
 
 WebUI.closeBrowser()
 

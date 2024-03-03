@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_17_SearchDog,Edge Chromium 122,,,03-03-2024 15:19:09,03-03-2024 15:19:24,15.187s,PASSED
+,,,,,,,
+Test Cases/TC_17_SearchDog,Edge Chromium 122,,,03-03-2024 15:19:09,03-03-2024 15:19:24,14.862s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,03-03-2024 15:19:10,03-03-2024 15:19:17,7.043s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,03-03-2024 15:19:17,03-03-2024 15:19:19,2.067s,PASSED
+"click(findTestObject(""Object Repository/SearchDogObjRep/a_Enter the Store (1)""))",Edge Chromium 122,,,03-03-2024 15:19:19,03-03-2024 15:19:21,1.948s,PASSED
+"setText(findTestObject(""Object Repository/SearchDogObjRep/input__keyword""), ""Dog"")",Edge Chromium 122,,,03-03-2024 15:19:21,03-03-2024 15:19:22,0.817s,PASSED
+"click(findTestObject(""Object Repository/SearchDogObjRep/input__searchProducts""))",Edge Chromium 122,,,03-03-2024 15:19:22,03-03-2024 15:19:23,0.661s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SearchDogObjRep/a_Friendly dog from England""), ""Friendly dog from England"")",Edge Chromium 122,,,03-03-2024 15:19:23,03-03-2024 15:19:24,0.715s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 15:19:24,03-03-2024 15:19:24,0.803s,PASSED

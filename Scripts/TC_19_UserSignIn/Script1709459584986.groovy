@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Enter the Store'))
+WebUI.click(findTestObject('Object Repository/UserSignInObjRep/a_Enter the Store'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/img'))
+WebUI.click(findTestObject('Object Repository/UserSignInObjRep/a_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_K9-BD-01'))
+WebUI.setText(findTestObject('Object Repository/UserSignInObjRep/input_Need a user name and password_username'), 
+    'ajay123')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Add to Cart'))
+WebUI.setEncryptedText(findTestObject('Object Repository/UserSignInObjRep/input_Need a user name and password_password'), 
+    'vzl2cAHk97k=')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Remove'))
+WebUI.click(findTestObject('Object Repository/UserSignInObjRep/input_Need a user name and password_signon'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/DeleteCartObjRep/b_Your cart is empty'), 'Your cart is empty.')
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/UserSignInObjRep/a_Sign Out'), 'Sign Out')
 

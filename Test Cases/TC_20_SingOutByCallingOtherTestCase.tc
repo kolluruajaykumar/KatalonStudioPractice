@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_20_SingOutByCallingOtherTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ff910a4-6d22-461e-b407-9dd6308979b1</testCaseGuid>
+</TestCaseEntity>

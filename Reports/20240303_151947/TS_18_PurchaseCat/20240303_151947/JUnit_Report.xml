@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_18_PurchaseCat" time="89.29" tests="1" failures="0" errors="0">
+   <testsuite name="TS_18_PurchaseCat" tests="1" failures="0" errors="0" time="89.29" skipped="0" timestamp="03-03-2024T15:19:54" hostname="WL352SH - IN3141980W1.ey.net" id="Test Suites/TS_18_PurchaseCat">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WL352SH\\git\\KatalonStudio\\KatalonStudioPractice\\Reports\\20240303_151947\\TS_18_PurchaseCat\\20240303_151947"/>
+         <property name="logFiles" value="C:\\Users\\WL352SH\\git\\KatalonStudio\\KatalonStudioPractice\\Reports\\20240303_151947\\TS_18_PurchaseCat\\20240303_151947\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WL352SH - IN3141980W1.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.1.34"/>
+         <property name="sessionId" value="2a628c7fee093edd19b6920a2e66b688"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_18_PurchaseCat" time="88.918" classname="Test Cases/TC_18_PurchaseCat" status="PASSED">
+         <system-out><![CDATA[03-03-2024T15:19:54 - [TEST_CASE][PASSED] - Test Cases/TC_18_PurchaseCat: Test Cases/TC_18_PurchaseCat
+
+03-03-2024T15:19:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-03-2024T15:19:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+03-03-2024T15:19:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-03-2024T15:20:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-03-2024T15:20:02 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+03-03-2024T15:20:05 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+03-03-2024T15:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_Enter the Store")): Object: 'Object Repository/PurchaseCatObjRep/a_Enter the Store' is clicked on
+
+03-03-2024T15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_Enter the Store' is clicked on
+
+03-03-2024T15:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/img")): Object: 'Object Repository/PurchaseCatObjRep/img' is clicked on
+
+03-03-2024T15:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/img' is clicked on
+
+03-03-2024T15:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_FL-DSH-01")): Object: 'Object Repository/PurchaseCatObjRep/a_FL-DSH-01' is clicked on
+
+03-03-2024T15:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_FL-DSH-01' is clicked on
+
+03-03-2024T15:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_Add to Cart")): Object: 'Object Repository/PurchaseCatObjRep/a_Add to Cart' is clicked on
+
+03-03-2024T15:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_Add to Cart' is clicked on
+
+03-03-2024T15:20:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_Proceed to Checkout")): Object: 'Object Repository/PurchaseCatObjRep/a_Proceed to Checkout' is clicked on
+
+03-03-2024T15:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_Proceed to Checkout' is clicked on
+
+03-03-2024T15:20:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PurchaseCatObjRep/input_Need a user name and password_username"), "ajay123"): Text 'ajay123' is set on object 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_username'
+
+03-03-2024T15:20:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-1052230467']'. Please recheck the objects properties to make sure the desired element is located. 
+
+03-03-2024T15:20:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_username'. Try using Self-healing.
+
+03-03-2024T15:20:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='stripes-1052230467']'.
+
+03-03-2024T15:20:42 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/p[2]/input'.
+
+03-03-2024T15:20:43 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/WL352SH/git/KatalonStudio/KatalonStudioPractice/Reports/Self-healing/Object Repository/PurchaseCatObjRep/input_Need a user name and password_username_idRelative.png
+
+03-03-2024T15:20:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+03-03-2024T15:21:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-1052230467']'. Please recheck the objects properties to make sure the desired element is located. 
+
+03-03-2024T15:21:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_username'. Try using Self-healing.
+
+03-03-2024T15:21:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+03-03-2024T15:21:14 - [MESSAGE][PASSED] - Text 'ajay123' is set on object 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_username'
+
+03-03-2024T15:21:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PurchaseCatObjRep/input_Need a user name and password_password"), "vzl2cAHk97k="): Text ****** has been set on object 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_password'
+
+03-03-2024T15:21:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_password'
+
+03-03-2024T15:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/input_Need a user name and password_signon")): Object: 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_signon' is clicked on
+
+03-03-2024T15:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/input_Need a user name and password_signon' is clicked on
+
+03-03-2024T15:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/img")): Object: 'Object Repository/PurchaseCatObjRep/img' is clicked on
+
+03-03-2024T15:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/img' is clicked on
+
+03-03-2024T15:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_FL-DSH-01")): Object: 'Object Repository/PurchaseCatObjRep/a_FL-DSH-01' is clicked on
+
+03-03-2024T15:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_FL-DSH-01' is clicked on
+
+03-03-2024T15:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_Add to Cart")): Object: 'Object Repository/PurchaseCatObjRep/a_Add to Cart' is clicked on
+
+03-03-2024T15:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_Add to Cart' is clicked on
+
+03-03-2024T15:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_Proceed to Checkout")): Object: 'Object Repository/PurchaseCatObjRep/a_Proceed to Checkout' is clicked on
+
+03-03-2024T15:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_Proceed to Checkout' is clicked on
+
+03-03-2024T15:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/input_Ship to different address_shippingAdd_0f9b79")): Object: 'Object Repository/PurchaseCatObjRep/input_Ship to different address_shippingAdd_0f9b79' is clicked on
+
+03-03-2024T15:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/input_Ship to different address_shippingAdd_0f9b79' is clicked on
+
+03-03-2024T15:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/input_Ship to different address_newOrder")): Object: 'Object Repository/PurchaseCatObjRep/input_Ship to different address_newOrder' is clicked on
+
+03-03-2024T15:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/input_Ship to different address_newOrder' is clicked on
+
+03-03-2024T15:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/input_Ship to different address_newOrder")): Object: 'Object Repository/PurchaseCatObjRep/input_Ship to different address_newOrder' is clicked on
+
+03-03-2024T15:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/input_Ship to different address_newOrder' is clicked on
+
+03-03-2024T15:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PurchaseCatObjRep/a_Confirm")): Object: 'Object Repository/PurchaseCatObjRep/a_Confirm' is clicked on
+
+03-03-2024T15:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PurchaseCatObjRep/a_Confirm' is clicked on
+
+03-03-2024T15:21:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/PurchaseCatObjRep/li_Thank you, your order has been submitted"), "Thank you, your order has been submitted."): Actual text and expected text of test object 'Object Repository/PurchaseCatObjRep/li_Thank you, your order has been submitted' are matched.
+
+03-03-2024T15:21:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PurchaseCatObjRep/li_Thank you, your order has been submitted' are matched.
+
+03-03-2024T15:21:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-03-2024T15:21:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-03-2024T15:19:54 - [TEST_SUITE][PASSED] - TS_18_PurchaseCat: Test Cases/TC_18_PurchaseCat]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

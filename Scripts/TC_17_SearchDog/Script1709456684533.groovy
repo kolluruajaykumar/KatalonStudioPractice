@@ -21,17 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Enter the Store'))
+WebUI.click(findTestObject('Object Repository/SearchDogObjRep/a_Enter the Store (1)'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/img'))
+WebUI.setText(findTestObject('Object Repository/SearchDogObjRep/input__keyword'), 'Dog')
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_K9-BD-01'))
+WebUI.click(findTestObject('Object Repository/SearchDogObjRep/input__searchProducts'))
 
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Add to Cart'))
-
-WebUI.click(findTestObject('Object Repository/DeleteCartObjRep/a_Remove'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/DeleteCartObjRep/b_Your cart is empty'), 'Your cart is empty.')
+WebUI.verifyElementText(findTestObject('Object Repository/SearchDogObjRep/a_Friendly dog from England'), 'Friendly dog from England')
 
 WebUI.closeBrowser()
 

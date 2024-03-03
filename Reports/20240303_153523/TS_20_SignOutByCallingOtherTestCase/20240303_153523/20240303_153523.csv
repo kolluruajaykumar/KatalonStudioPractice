@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_20_SignOutByCallingOtherTestCase,Edge Chromium 122,,,03-03-2024 15:35:29,03-03-2024 15:36:12,43.217s,PASSED
+,,,,,,,
+Test Cases/TC_20_SingOutByCallingOtherTestCase,Edge Chromium 122,,,03-03-2024 15:35:30,03-03-2024 15:36:12,42.941s,PASSED
+"callTestCase(findTestCase(""TC_19_UserSignIn""), [:], STOP_ON_FAILURE)",Edge Chromium 122,,,03-03-2024 15:35:30,03-03-2024 15:36:09,39.283s,PASSED
+"click(findTestObject(""Object Repository/SignOutObjRep/a_Sign Out""))",Edge Chromium 122,,,03-03-2024 15:36:09,03-03-2024 15:36:10,1.088s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Edge Chromium 122,,,03-03-2024 15:36:10,03-03-2024 15:36:11,0.316s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SignOutObjRep/a_Sign In""), ""Sign In"")",Edge Chromium 122,,,03-03-2024 15:36:11,03-03-2024 15:36:11,0.492s,PASSED
+closeBrowser(),Edge Chromium 122,,,03-03-2024 15:36:11,03-03-2024 15:36:12,1.275s,PASSED
