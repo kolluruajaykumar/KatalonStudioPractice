@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_25_EmptySearch,Edge Chromium 122,,,05-03-2024 20:02:31,05-03-2024 20:02:41,10.732s,PASSED
+,,,,,,,
+Test Cases/TC_25_EmptySearch,Edge Chromium 122,,,05-03-2024 20:02:31,05-03-2024 20:02:41,10.506s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,05-03-2024 20:02:31,05-03-2024 20:02:35,3.717s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,05-03-2024 20:02:35,05-03-2024 20:02:37,1.826s,PASSED
+"click(findTestObject(""Object Repository/EmptySearchObjRep/p_Enter the Store""))",Edge Chromium 122,,,05-03-2024 20:02:37,05-03-2024 20:02:38,0.761s,PASSED
+"click(findTestObject(""Object Repository/EmptySearchObjRep/a_Enter the Store""))",Edge Chromium 122,,,05-03-2024 20:02:38,05-03-2024 20:02:40,1.944s,PASSED
+"click(findTestObject(""Object Repository/EmptySearchObjRep/input__searchProducts""))",Edge Chromium 122,,,05-03-2024 20:02:40,05-03-2024 20:02:40,0.939s,PASSED
+"verifyElementText(findTestObject(""Object Repository/EmptySearchObjRep/li_Please enter a keyword to search for, th_53394b""), ""Please enter a keyword to search for, then press the search button."")",Edge Chromium 122,,,05-03-2024 20:02:40,05-03-2024 20:02:41,0.514s,PASSED
+closeBrowser(),Edge Chromium 122,,,05-03-2024 20:02:41,05-03-2024 20:02:41,0.460s,PASSED

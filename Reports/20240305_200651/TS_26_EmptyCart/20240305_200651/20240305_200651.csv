@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_26_EmptyCart,Edge Chromium 122,,,05-03-2024 20:06:56,05-03-2024 20:07:06,10.231s,PASSED
+,,,,,,,
+Test Cases/TC_26_ValidateEmptyCart,Edge Chromium 122,,,05-03-2024 20:06:56,05-03-2024 20:07:06,9.992s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,05-03-2024 20:06:57,05-03-2024 20:07:00,3.590s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,05-03-2024 20:07:00,05-03-2024 20:07:02,1.909s,PASSED
+"click(findTestObject(""Object Repository/EmptyCartObjRep/a_Enter the Store""))",Edge Chromium 122,,,05-03-2024 20:07:02,05-03-2024 20:07:04,2.379s,PASSED
+"click(findTestObject(""Object Repository/EmptyCartObjRep/img_Sign In_img_cart""))",Edge Chromium 122,,,05-03-2024 20:07:04,05-03-2024 20:07:05,0.872s,PASSED
+"verifyElementText(findTestObject(""Object Repository/EmptyCartObjRep/b_Your cart is empty""), ""Your cart is empty."")",Edge Chromium 122,,,05-03-2024 20:07:05,05-03-2024 20:07:06,0.500s,PASSED
+closeBrowser(),Edge Chromium 122,,,05-03-2024 20:07:06,05-03-2024 20:07:06,0.386s,PASSED
