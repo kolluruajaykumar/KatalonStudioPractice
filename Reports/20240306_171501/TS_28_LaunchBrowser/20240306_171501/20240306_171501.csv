@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_28_LaunchBrowser,Edge Chromium 122,,,06-03-2024 17:15:20,06-03-2024 17:15:38,17.879s,PASSED
+,,,,,,,
+Test Cases/TC_28_LaunchBrowser,Edge Chromium 122,,,06-03-2024 17:15:20,06-03-2024 17:15:38,17.622s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,06-03-2024 17:15:20,06-03-2024 17:15:24,3.948s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,06-03-2024 17:15:24,06-03-2024 17:15:37,12.948s,PASSED
+closeBrowser(),Edge Chromium 122,,,06-03-2024 17:15:37,06-03-2024 17:15:38,0.355s,PASSED

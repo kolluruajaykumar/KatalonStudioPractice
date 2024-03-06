@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_24_MyOrderPage,Edge Chromium 122,,,06-03-2024 16:56:47,06-03-2024 16:57:56,1m - 8.702s,FAILED
+,,,,,,,
+Test Cases/TC_24_ValidateMyOrderPage,Edge Chromium 122,,,06-03-2024 16:57:39,06-03-2024 16:57:56,16.592s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,06-03-2024 16:57:39,06-03-2024 16:57:43,3.573s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,06-03-2024 16:57:43,06-03-2024 16:57:45,1.759s,PASSED
+"click(findTestObject(""Object Repository/MyOrderPageObjRep/a_Enter the Store""))",Edge Chromium 122,,,06-03-2024 16:57:45,06-03-2024 16:57:47,2.140s,PASSED
+"click(findTestObject(""Object Repository/MyOrderPageObjRep/a_Sign In""))",Edge Chromium 122,,,06-03-2024 16:57:47,06-03-2024 16:57:48,0.847s,PASSED
+"setText(findTestObject(""Object Repository/MyOrderPageObjRep/input_Need a user name and password_username""), ""ajay123"")",Edge Chromium 122,,,06-03-2024 16:57:48,06-03-2024 16:57:49,0.745s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyOrderPageObjRep/input_Need a user name and password_password""), ""vzl2cAHk97k="")",Edge Chromium 122,,,06-03-2024 16:57:49,06-03-2024 16:57:49,0.511s,PASSED
+"click(findTestObject(""Object Repository/MyOrderPageObjRep/input_Need a user name and password_signon""))",Edge Chromium 122,,,06-03-2024 16:57:49,06-03-2024 16:57:50,0.929s,PASSED
+"click(findTestObject(""Object Repository/MyOrderPageObjRep/a_My Account""))",Edge Chromium 122,,,06-03-2024 16:57:50,06-03-2024 16:57:51,1.402s,PASSED
+"click(findTestObject(""Object Repository/MyOrderPageObjRep/a_My Orders""))",Edge Chromium 122,,,06-03-2024 16:57:51,06-03-2024 16:57:56,4.635s,FAILED

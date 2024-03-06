@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_27_SearchWithDesc,Edge Chromium 122,,,06-03-2024 17:13:59,06-03-2024 17:14:12,13.400s,PASSED
+,,,,,,,
+Test Cases/TC_27_SearchWithDescription,Edge Chromium 122,,,06-03-2024 17:13:59,06-03-2024 17:14:12,13.161s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,06-03-2024 17:13:59,06-03-2024 17:14:03,3.686s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 122,,,06-03-2024 17:14:03,06-03-2024 17:14:05,2.020s,PASSED
+"click(findTestObject(""Object Repository/SearchWithDescObjRep/a_Enter the Store""))",Edge Chromium 122,,,06-03-2024 17:14:05,06-03-2024 17:14:07,2.249s,PASSED
+"setText(findTestObject(""Object Repository/SearchWithDescObjRep/input__keyword""), ""Adult Male Persian"")",Edge Chromium 122,,,06-03-2024 17:14:07,06-03-2024 17:14:08,1.176s,PASSED
+"click(findTestObject(""Object Repository/SearchWithDescObjRep/input__keyword""))",Edge Chromium 122,,,06-03-2024 17:14:08,06-03-2024 17:14:09,0.628s,PASSED
+"click(findTestObject(""Object Repository/SearchWithDescObjRep/input__searchProducts""))",Edge Chromium 122,,,06-03-2024 17:14:09,06-03-2024 17:14:10,1.140s,PASSED
+"click(findTestObject(""Object Repository/SearchWithDescObjRep/a_Friendly house cat, doubles as a princess""))",Edge Chromium 122,,,06-03-2024 17:14:10,06-03-2024 17:14:11,0.971s,PASSED
+"verifyElementText(findTestObject(""Object Repository/SearchWithDescObjRep/td_Adult Male    Persian""), ""Adult Male Persian"")",Edge Chromium 122,,,06-03-2024 17:14:11,06-03-2024 17:14:12,0.502s,PASSED
+closeBrowser(),Edge Chromium 122,,,06-03-2024 17:14:12,06-03-2024 17:14:12,0.438s,PASSED
